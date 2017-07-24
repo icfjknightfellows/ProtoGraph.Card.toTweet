@@ -4,33 +4,53 @@ body{
   margin: 0px;
 }
 
-.storylink-title{
-  font-family: helvetica;
-  font-size: 20px;
-  line-height: 28px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.tweet-content-div {
+  display: inline-block;
+  padding-left: 15px;
+  width: 180px;
 }
 
-.storylink-description{
-  margin-top: 5px;
-  margin-bottom: 20px;
+.twitter-profile-img{
+  display: inline-block;
+}
+
+.twitter-image-tag{
+  width: 35px;
+  height: 35px;
+  margin-bottom:60px;
+  border-radius: 17px;
+}
+
+.twitter-name{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #1e70bf;
+}
+
+.twitter-tweet{
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 10px;
   color: rgba(0,0,0,.87);
   font-family: 'Lato', sans-serif;
+  letter-spacing: 0.5px;
 }
 
-.storylink-date{
+.twitter-date{
   font-size: 12px;
   opacity: 0.4;
   font-family: 'Lato', sans-serif;
 }
 
-.storylink-url{
+.twitter-url{
   text-decoration: none;
   color: black;
 }
 
-.storylink-url:hover{
+.twitter-url:hover{
   text-decoration: none;
   color: black;
 }
@@ -41,18 +61,6 @@ body{
   margin-left: 20px;
   height: 450px;
   overflow: hidden;
-}
-
-#protograph-explainer-form-div {
-  display: inline-block;
-  top: 20px;
-}
-
-
-#protograph-explainer-card-div {
-  display: inline-block;
-  float: right;
-  top: 20px;
 }
 
 
@@ -66,9 +74,10 @@ fieldset {
 }
 
 .protograph_card_div {
-  padding: 15px;
+  padding: 10px;
   margin-bottom: 30px;
-  background: white;
+  background: #F7F7F7;
+  display: inline-block;
 }
 
 .protograph-edit-form {
