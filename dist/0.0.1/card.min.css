@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body{
+  margin: 0px;
+}
+
+.storylink-title{
+  font-family: helvetica;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.storylink-description{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: rgba(0,0,0,.87);
+  font-family: 'Lato', sans-serif;
+}
+
+.storylink-date{
+  font-size: 12px;
+  opacity: 0.4;
+  font-family: 'Lato', sans-serif;
+}
+
+.storylink-url{
+  text-decoration: none;
+  color: black;
+}
+
+.storylink-url:hover{
+  text-decoration: none;
+  color: black;
+}
+
+#ProtoScreenshot {
+  width: 450px;
+  padding: 10px 15px;
+  margin-left: 20px;
+  height: 450px;
+  overflow: hidden;
+}
+
+#protograph-explainer-form-div {
+  display: inline-block;
+  top: 20px;
+}
+
+
+#protograph-explainer-card-div {
+  display: inline-block;
+  float: right;
+  top: 20px;
+}
+
+
+#protograph-prev-link {
+  cursor: pointer;
+  margin-left: 0.75em;
+}
+
+fieldset {
+  width:98%;
+}
+
+.protograph_card_div {
+  padding: 15px;
+  margin-bottom: 30px;
+  background: white;
+}
+
+.protograph-edit-form {
+  border-right: 1px solid #efefef ;
+  box-sizing: border-box;
+}
+
+#protograph_read_more {
+  color: #086FB4;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 450px){
+  #protograph-explainer-card-div {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "id": "/properties/data",
+      "properties": {
+        "tweet_id": {
+          "id": "/properties/data/properties/tweet_id",
+          "title": "Tweet Id",
+          "type": "number"
+        },
+        "name": {
+          "id": "/properties/data/properties/title",
+          "title": "User Name",
+          "type": "string"
+        },
+        "tweet": {
+          "id": "/properties/data/properties/description",
+          "title": "Tweet",
+          "type": "string"
+        },
+        "image": {
+          "id": "/properties/data/properties/image",
+          "title": "User Profile Image",
+          "type": "string"
+        },
+        "url": {
+          "id": "/properties/data/properties/url",
+          "title": "Tweet URL",
+          "type": "string"
+        },
+        "date": {
+          "id": "/properties/data/properties/date",
+          "title": "Date",
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "date",
+        "name",
+        "tweet"
+      ],
+      "type": "object"
+    }
+  },
+  "type": "object"
+}
